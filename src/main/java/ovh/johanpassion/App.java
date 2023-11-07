@@ -24,6 +24,7 @@ public class App {
         }else{
             System.out.println("Vous avez assez pour vous acheter un café crème, et il vous restera "+(total-100)+" centimes");
         }
+        clavier.close();
     }
     
 }
